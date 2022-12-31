@@ -1,0 +1,300 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Alice', serif;
+}
+/*variables*/
+:root {
+--background-color: rgba(254, 81, 58, 0.842);
+--second-color:#FCF5EB;
+--thirty-color:#EFA593;
+}
+/*nav-bar-menu*/
+.nav-bar-menu {
+background-color: #4588AE;
+position: fixed;
+width: 100vw;
+max-width: 100%;
+box-shadow: 0px 4px 10px 1px #4F5483;
+padding: .5rem 0rem;
+ 
+}
+.nav-bar-menu ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 100%;
+  padding: 1rem 0rem;
+  
+}
+.nav-bar-menu ul li a {
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius:7px ;
+  box-shadow:6px 1px 4px 1px #4f548373 ;
+  text-shadow: 0px 1px 1px black;
+}
+/*content of first section*/
+.cont-first-section-sms-and-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 5rem 0rem 1rem 0rem;
+  margin: .6rem 0rem;
+  background-color: #FFFCE7;
+}
+.cont-sms-margin {
+  margin: 0rem 2rem;
+  padding: 1rem 0rem;
+}
+.cont-first-section-sms-and-img h1 {
+padding: 1.5rem 0rem;
+color: #BA4B2F;
+text-shadow: 0px 1px 1px black;
+font-size: 1.4rem;
+}
+.cont-first-section-sms-and-img p {
+padding: 1rem 0rem;
+font-size: 1.3rem;
+color: #9D8E90;
+word-spacing: .5rem;
+ line-height: 1.3rem;
+ line-height: 2rem;
+ font-family: 'Barlow Condensed', sans-serif;
+}
+.cont-first-section-sms-and-img button {
+  border: 2px solid white ;
+  padding: .5rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  background-color: #BA4B2F;
+  color: white;
+  box-shadow: 5px 2px 10px 1px #4f548383;
+}
+.cont-img-perfil_img {
+display: flex;
+border: 4px solid white ;
+flex-direction: row;
+justify-content: center;
+padding: 3rem 4rem;
+border-radius: 7px;
+background-color: #FFE7AF;
+margin-bottom: 1rem;
+box-shadow: 6px 2px 10px 1px #4f548383;
+width: 35vw;
+max-width: 35vw;
+}
+#img-radius {
+  border-radius: 7px;
+}
+/*section-two*/
+#cont-que-encontraras {
+  width: 100%;
+  max-width: 100vw;
+  background-color: #4588AE;
+}
+.h1-questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: .4rem 0rem;
+  font-size: 1.5rem;
+  color: #FCF5EB;
+  padding: 1rem 0rem;
+  text-shadow: 5px 7px 3px black;
+}
+.h1-questions h1 {
+   font-family: 'Barlow Condensed', sans-serif;
+}
+.cont-reference-box {
+  border: 2px solid white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 6px 5px 25px 2px white ;
+  background-color: #4f548300;
+  border: 4px solid white;
+}
+.cont-reference-box img {
+  border-radius: 30px 2px 30px 2px;
+}
+.cont-img-reference {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem 0rem;
+  background-color: #4588AE;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
+.cont-img-reference span {
+ font-size: 1.3rem;
+ padding: 0rem .9rem;
+ color: #FCF5EB;
+position: relative;
+top: 1rem;
+text-shadow: 0px 1px 1px black;
+}
+.cont-span {
+  height: 5rem;
+  margin: .3rem;
+  background-color: #9d8e9050;
+  padding-left:1rem ;
+  border-radius: 2px 2px 10px 10px ;
+  word-spacing: .2rem;
+}
+.cont-span span {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#much-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #4588AE;
+  color: #FCF5EB;
+  text-shadow: 0px 1px 1px black;
+  font-size: 1.2rem;
+  padding: 1rem 0rem;
+  word-spacing: .3rem;
+}
+#font-family-much-more {
+ font-family: 'Barlow Condensed', sans-serif;
+}
+/*section-three*/
+#cont-section-three {
+  background-color: #FFFCE7;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 5rem 0rem 1rem 0rem;
+  flex-wrap: wrap;
+}
+.img-bck-border-radius img {
+ border-radius: 15% 15% 3px 3px;
+ box-shadow:8px 5px 10px 1px #4f548373 ;
+}
+.cont-pdf-download {
+  padding: 4rem 1rem 0rem 1rem;
+}
+.cont-pdf-download h2 {
+  color: #BA4B2F;
+  text-shadow: 2px 1px 1px black;
+  word-spacing: .7rem;
+  line-height: 1.3rem;
+}
+.cont-pdf-download p {
+  margin-top: 1.5rem;
+  color: #9D8E90;
+  font-size: 1.4rem;
+  padding: 1rem 0rem;
+  line-height: 2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  word-spacing: .2rem;
+}
+.cont-pdf-download button {
+  margin-top: 3rem;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 7px;
+  margin-left: 7.5rem;
+  font-size: 1.3rem;
+  color:#BA4B2F ;
+  margin-bottom: 1.5rem;
+  border: 1px solid #BA4B2F;
+  background-color: var(--second-color);
+}
+.button-border {
+  border-bottom:1px solid #BA4B2F;
+  box-shadow: 8px 5px 10px 1px #4f548373;
+}
+.button-border a {
+  color: #BA4B2F;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+/*footer*/
+.cont-footer-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+  color: #FCF5EB;
+  background-color: #4588AE;
+  text-shadow: 5px 7px 3px black;
+  word-spacing: .7rem;
+}
+.cont-footer-numbers-contact {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 0rem 0rem 0rem;
+  background-color: #4588AE;
+  gap: 2rem;
+}
+.cont-footer-center h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.cont-footer-numbers-contact h3 , span {
+  color: #FCF5EB;
+  font-size: 1.4rem;
+  padding: 1rem 0rem;
+  text-shadow: 7px 7px 3px black;
+  word-spacing: .7rem;
+  
+}
+.icon-links-whst {
+  position: relative;
+  top: -2.2rem;
+}
+#earth-red {
+  color: red;
+}
+.h4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  padding: 2rem 0rem 3rem 0rem;
+  font-size: 1.3rem;
+  background-color:#4588AE;
+  color: #FCF5EB;
+  word-spacing: .3rem;
+  text-shadow: 5px 7px 3px black;
+  margin-top: .5rem;
+  letter-spacing: .5rem;
+}
+.h4 h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+/*hovers*/
+.nav-bar-menu :hover{
+  background-color: rgba(0, 0, 0, 0.397);
+   cursor: pointer;
+}
+.button-border  :hover{
+  cursor: pointer;
+  background-color: #BA4B2F;
+  color: white;
+  border-bottom:1px solid #BA4B2F;
+  width: 12rem;
+  height: 3rem;
+  max-width: 12rem;
+  max-height: 3rem;
+  transition: 1.5s;
+  }

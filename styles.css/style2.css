@@ -1,0 +1,133 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alice', serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+--second-color:#FCF5EB;
+}
+.cont-lee-lo-siguiente {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #4588AE;
+}
+.cont-lee-lo-siguiente h2 {
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 1rem;
+}
+.cont-sms-important {
+    padding: 7rem 3rem 1rem 3rem;
+    color: white;
+    margin: 0rem 2rem;
+}
+.cont-sms-important p {
+  padding: 1rem 0rem;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  word-spacing: .3rem;
+  text-indent: 1rem;
+  line-height: 1.3rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.button {
+    width: 15rem;
+    height: 3rem;
+    color: white;
+    background-color: #4F5483;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-top: .8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.cont-ejem-how-take {
+    padding:3rem 2rem 1rem 2rem ;
+    color: white;
+    margin: 0rem 1rem;
+}
+.color-blue {
+    color: #093D7B;
+}
+#color-white {
+    color: white;
+}
+.img-font {
+    border: 4px solid white;
+    border-radius: 10%;
+    box-shadow: 5px 2px 8px 2px #4F5483;
+}
+/*second section*/
+.cont-sect-second {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color:  #FFFCE7;
+}
+.cont-links-dowld {
+    padding: 5rem 1rem 0rem 1rem;
+}
+.cont-links-dowld h2 {
+    color: #BA4B2F;
+}
+.cont-links-dowld button {
+    padding: 1rem 2rem;
+    margin : 2rem;
+    border-radius: 7px ;
+    font-size: 1.1rem;
+    border: 1px solid #4F5483;
+    background-color:#BA4B2F;
+    box-shadow: 6px 1px 9px 1px #4f54839f;
+}
+.cont-links-dowld button a {
+ color: white;
+ border-bottom: 1px solid white;
+ padding: .2rem 0rem;
+ 
+}
+/*hover*/
+.cont-links-dowld button:hover{
+    background-color:#4588AE;
+    color: black;
+    font-size: 1.2rem;
+    transition: 1.5s;
+
+}
+/*volver al inicio*/
+.back-to-inicie {
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFCE7;
+}
+.button-go-to-back {
+    padding: 1rem 2.5rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    color:white;
+    font-size: 1.2rem;
+    background-color:  #BA4B2F;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/*hovers*/
+.back-to-inicie :hover {
+    background-color: #4588AE;
+    cursor: pointer;
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    transition: 1.5s;
+} 
